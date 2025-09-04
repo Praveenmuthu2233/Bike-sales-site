@@ -1,0 +1,107 @@
+.logo{
+    width: 70px;
+}
+.navbar{
+    background-color: rgb(21, 35, 109);
+}
+.collapse{
+    display: flex;
+    justify-content: flex-end;
+}
+.nav-item:hover {
+    background-color: #243232; 
+    border-radius: 15%;
+}
+.home-page {
+    width: 100%;
+    margin-top: 60px;
+    background-image: url("Screenshot\ 2025-09-04\ 182823.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh; 
+    overflow-x: hidden;
+}
+.para{
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(175, 234, 37);
+}
+.row {
+    margin-top: 50px;
+    margin-right: 0;
+    margin-left: 0;
+    
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.btn{
+    padding: 10px 30px;
+    background-color: rgb(183, 36, 36);
+    color: white;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    transition: transform 0.4s ease, filter 0.4s ease;
+}
+.btn:hover{
+    background-color: #688080;
+    transform: scale(1.1);
+    filter: brightness(2.1);
+}
+.pic{
+    border-radius: 12px;
+    width: 100%;
+    height: 200px;  
+    object-fit: contain;
+    background: #fff;
+    padding: 10px;
+}
+#Category,#Products,#Contact,#About{
+  scroll-margin-top: 80px;
+}
+#Products{
+    background-color: rgb(215, 212, 212);
+}
+.cont-page{
+    width: 200px;
+}
+.map{ 
+    width: 50vw;
+    height: 300px;
+}
+.about-bike{
+    border-radius: 12px;
+}
+.contact-page{
+    background-color: #f1f0f0;
+}
+
+.cont-foot{
+    color: rgb(119, 117, 116);
+    text-decoration: none;
+}
+.white{
+    color: transparent;
+}
+.bi{
+    color: black;
+}
+.contact-foot{
+    text-decoration: none;
+}
+
+.footer{
+    margin-bottom: 30px;
+}
+.hover-img{
+    transition: transform 0.4s ease, filter 0.4s ease;
+    }
+
+.hover-img:hover {
+    transform: scale(1.1); 
+    filter: brightness(1.1);
+}
