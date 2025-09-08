@@ -245,7 +245,6 @@ function submitData() {
     });
 
     let enquiryOutput = "";
-
     for (let number in dideclaredData) {
       let { name, location, bikes } = dideclaredData[number];
       let bikeList = bikes.join(", ");
