@@ -217,7 +217,7 @@ function submitUserForm() {
   userInputName.value = '';
   userInputNumber.value = '';
   userInputLocation.value = '';
-  submitData();
+  submitData(); 
 
   let modalInstance = bootstrap.Modal.getInstance(document.getElementById("exampleModal"));
   modalInstance.hide();
