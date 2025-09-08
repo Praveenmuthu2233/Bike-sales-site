@@ -2,7 +2,8 @@
     width: 70px;
 }
 .navbar{
-    background-color: rgb(21, 35, 109);
+    background-color: rgb(165, 190, 168);
+;
 }
 .collapse{
     display: flex;
@@ -50,17 +51,17 @@ img {
 .btn:hover{
     background-color: #688080;
     transform: scale(1.1);
-    filter: brightness(2.1);
+    filter: brightness(1.5);
+    font-weight: bold;
 }
 .pic{
     border-radius: 12px;
     width: 100%;
-    height: 200px;  
-    object-fit: contain;
+    height: 200px;
     background: #fff;
     padding: 10px;
 }
-#Category,#Products,#Contact,#About{
+#Category,#Products,#Contact,#About, #Gallery,#Contact{
   scroll-margin-top: 80px;
 }
 #Products{
@@ -68,6 +69,9 @@ img {
 }
 .cont-page{
     width: 200px;
+}
+.contact-btn{
+    width: auto;
 }
 .map{ 
     width: 50vw;
@@ -104,4 +108,33 @@ img {
 .hover-img:hover {
     transform: scale(1.1); 
     filter: brightness(1.1);
+}
+.addressLink{
+    color: black;
+    text-decoration: none;
+}
+
+.addressLink:hover{
+    color: blue;
+}
+
+.userSubBtn{
+    padding: 10px 30px;
+    background-color: rgb(183, 36, 36);
+    color: white;
+    border: none;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    transition: transform 0.4s ease, filter 0.4s ease;
+}
+.userSubBtn:hover{
+    background-color: #688080;
+    transform: scale(1.1);
+    filter: brightness(1.5);
+    font-weight: 24px;
+}
+.adminContainer{
+    background-color: rgb(145, 148, 145);
 }
